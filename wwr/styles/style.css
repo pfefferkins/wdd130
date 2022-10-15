@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oswald&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,18 +9,25 @@ nav a {
     text-align: center;
     color: #001F29;
     text-decoration: none;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
+    padding: 35px;
 }
 h4 {
-    color:#FFFFFF;
+    color:#001F29;
+    text-align: center;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
 }
 .button-box {
     text-align: center;
+    font-family: 'Luckiest Guy', 'Cambria,' 'Georgia';
 }
 main section {
     text-align: center;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
 }
 #background {
     height: 725px;
@@ -25,9 +35,19 @@ main section {
 }
 body {
     background-color: #FFFFFF;
+    font-family: 'Permanent Marker', Rockwell, Georgia;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 .home-title {
     color: #001F29;
+    text-align: center;
+    font-family: 'Permanent Marker', Rockwell, Georgia;
+    font-size: 2em;
+    margin-top: 10px;
 }
 header {
     background-color: #f1ff89;
@@ -40,6 +60,11 @@ nav a:hover {
     background-color: #86D5FF;
     color: #001F29;
     text-decoration: none;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #FFFFFF;
@@ -47,19 +72,31 @@ nav a:hover {
 }
 .msg {
     background-color: #86D5FF;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #001F29;
+    font-family: 'Permanent Marker', Rockwell, Georgia;
 }
 .msg p {
     color: #001F29;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#f1ff89;
     color:#001F29;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer p {
     font-size: 1.2em;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -67,9 +104,19 @@ footer p a:hover {
 footer a {
     color: #001F29;
     text-decoration: none;
+    font-family: 'Luckiest Guy', Cambria, Georgia;
 }
 footer a:hover {
     color: #86D5FF;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #f1ff89;
+}
+main section img {
+    box-sizing: border-box;
 }
 #hero-img {
     width: 100%;
@@ -77,6 +124,10 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+       padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
